@@ -16,10 +16,9 @@ void AMovablePlatform::BeginPlay()
 {
 	Super::BeginPlay();
 
-	IntAPlusB = IntA + IntB;
-	
-	FloatTotal = FloatA + FloatB;
+	PlatformLocation = PlayerLocation + FVector(15,500,-90);
 
+	SetActorLocation(PlatformLocation);
 }
 
 // Called every frame

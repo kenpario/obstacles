@@ -23,31 +23,9 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	UPROPERTY(EditAnywhere);
-	int32 IntTest = 22;
+	UPROPERTY(EditAnywhere)
+	FVector PlayerLocation = FVector(2180.957527,695.359269,293.988301);
 
-	UPROPERTY(EditAnywhere);
-	int32 IntA = 56;
-
-	UPROPERTY(EditAnywhere);
-	int32 IntB = 75;
-
-	UPROPERTY(EditAnywhere);
-	int32 IntAPlusB = 0;
-
-	UPROPERTY(EditAnywhere);
-	float FloatTest = 24.25;
-
-	UPROPERTY(EditAnywhere);
-	float FloatA = 24.25;
-
-	UPROPERTY(EditAnywhere);
-	float FloatB = 35.78;
-
-	UPROPERTY(EditAnywhere);
-	float FloatTotal = 0;
-
-	UPROPERTY(EditAnywhere);
-	bool BoolTest = true;
-
+	UPROPERTY(EditAnywhere)
+	FVector PlatformLocation;
 };
