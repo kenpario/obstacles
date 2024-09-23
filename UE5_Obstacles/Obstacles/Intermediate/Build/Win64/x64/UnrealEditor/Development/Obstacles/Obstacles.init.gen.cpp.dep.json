@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal engine games\\obstacle\\obstacles\\ue5_obstacles\\obstacles\\intermediate\\build\\win64\\unrealeditor\\inc\\obstacles\\uht\\obstacles.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal engine games\\obstacle\\obstacles\\ue5_obstacles\\obstacles\\intermediate\\build\\win64\\x64\\obstacleseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
+        "Includes": [
+            "d:\\unreal engine games\\obstacle\\obstacles\\ue5_obstacles\\obstacles\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\obstacles\\definitions.obstacles.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Unreal Engine Games\\Obstacle\\obstacles\\UE5_Obstacles\\Obstacles\\Source\\Obstacles\\Obstacles.Build.cs",
+		"D:\\Unreal Engine Games\\Obstacle\\obstacles\\UE5_Obstacles\\Obstacles\\Source\\Obstacles.Target.cs",
+		"D:\\Unreal Engine Games\\Obstacle\\obstacles\\UE5_Obstacles\\Obstacles\\Source\\ObstaclesEditor.Target.cs"
+	],
+	"EngineVersion": "5.4.4"
+}

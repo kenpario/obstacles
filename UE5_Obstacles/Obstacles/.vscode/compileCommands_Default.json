@@ -1,0 +1,42 @@
+[
+	{
+		"file": "D:\\Unreal Engine Games\\Obstacle\\obstacles\\UE5_Obstacles\\Obstacles\\Source\\Obstacles\\MovablePlatform.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Unreal Engine Games\\Obstacle\\obstacles\\UE5_Obstacles\\Obstacles\\.vscode\\compileCommands_Default\\Obstacles.1.rsp"
+		],
+		"directory": "D:\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Engine Games\\Obstacle\\obstacles\\UE5_Obstacles\\Obstacles\\Source\\Obstacles\\MovablePlatform.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Unreal Engine Games\\Obstacle\\obstacles\\UE5_Obstacles\\Obstacles\\.vscode\\compileCommands_Default\\Obstacles.1.rsp"
+		],
+		"directory": "D:\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Engine Games\\Obstacle\\obstacles\\UE5_Obstacles\\Obstacles\\Source\\Obstacles\\Obstacles.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Unreal Engine Games\\Obstacle\\obstacles\\UE5_Obstacles\\Obstacles\\.vscode\\compileCommands_Default\\Obstacles.1.rsp"
+		],
+		"directory": "D:\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Engine Games\\Obstacle\\obstacles\\UE5_Obstacles\\Obstacles\\Source\\Obstacles\\Obstacles.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Unreal Engine Games\\Obstacle\\obstacles\\UE5_Obstacles\\Obstacles\\.vscode\\compileCommands_Default\\Obstacles.1.rsp"
+		],
+		"directory": "D:\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Engine Games\\Obstacle\\obstacles\\UE5_Obstacles\\Obstacles\\Source\\Obstacles\\Obstacles.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\Unreal Engine Games\\Obstacle\\obstacles\\UE5_Obstacles\\Obstacles\\.vscode\\compileCommands_Default\\Obstacles.1.rsp"
+		],
+		"directory": "D:\\UE_5.4\\Engine\\Source"
+	}
+]

@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "ObstaclesEditor Editor Win64 Development (Obstacles)",
+            "compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\Unreal Engine Games\\Obstacle\\obstacles\\UE5_Obstacles\\Obstacles\\.vscode\\compileCommands_Obstacles.json"
+        },
+        {
+            "name": "Win32",
+            "compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\Unreal Engine Games\\Obstacle\\obstacles\\UE5_Obstacles\\Obstacles\\.vscode\\compileCommands_Default.json"
+        }
+    ],
+    "version": 4
+}
