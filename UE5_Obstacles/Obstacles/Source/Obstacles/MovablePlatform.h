@@ -28,4 +28,17 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	FVector PlatformLocation;
+
+	UPROPERTY(EditAnywhere)
+	FVector DefaultPlatformLocation;
+
+	UPROPERTY(EditAnywhere)
+	int32 MaxLocation = 2750;
+
+	UPROPERTY(EditAnywhere)
+	int32 MinLocation = 1640;
+
+	UPROPERTY(EditAnywhere)
+	int32 Steps = 300;
+
 };

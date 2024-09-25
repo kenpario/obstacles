@@ -41,9 +41,29 @@ struct Z_Construct_UClass_AMovablePlatform_Statics
 		{ "Category", "MovablePlatform" },
 		{ "ModuleRelativePath", "MovablePlatform.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DefaultPlatformLocation_MetaData[] = {
+		{ "Category", "MovablePlatform" },
+		{ "ModuleRelativePath", "MovablePlatform.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MaxLocation_MetaData[] = {
+		{ "Category", "MovablePlatform" },
+		{ "ModuleRelativePath", "MovablePlatform.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MinLocation_MetaData[] = {
+		{ "Category", "MovablePlatform" },
+		{ "ModuleRelativePath", "MovablePlatform.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Steps_MetaData[] = {
+		{ "Category", "MovablePlatform" },
+		{ "ModuleRelativePath", "MovablePlatform.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStructPropertyParams NewProp_PlayerLocation;
 	static const UECodeGen_Private::FStructPropertyParams NewProp_PlatformLocation;
+	static const UECodeGen_Private::FStructPropertyParams NewProp_DefaultPlatformLocation;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_MaxLocation;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_MinLocation;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_Steps;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -53,9 +73,17 @@ struct Z_Construct_UClass_AMovablePlatform_Statics
 };
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMovablePlatform_Statics::NewProp_PlayerLocation = { "PlayerLocation", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMovablePlatform, PlayerLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PlayerLocation_MetaData), NewProp_PlayerLocation_MetaData) };
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMovablePlatform_Statics::NewProp_PlatformLocation = { "PlatformLocation", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMovablePlatform, PlatformLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PlatformLocation_MetaData), NewProp_PlatformLocation_MetaData) };
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMovablePlatform_Statics::NewProp_DefaultPlatformLocation = { "DefaultPlatformLocation", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMovablePlatform, DefaultPlatformLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DefaultPlatformLocation_MetaData), NewProp_DefaultPlatformLocation_MetaData) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMovablePlatform_Statics::NewProp_MaxLocation = { "MaxLocation", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMovablePlatform, MaxLocation), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MaxLocation_MetaData), NewProp_MaxLocation_MetaData) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMovablePlatform_Statics::NewProp_MinLocation = { "MinLocation", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMovablePlatform, MinLocation), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MinLocation_MetaData), NewProp_MinLocation_MetaData) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMovablePlatform_Statics::NewProp_Steps = { "Steps", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMovablePlatform, Steps), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Steps_MetaData), NewProp_Steps_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMovablePlatform_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovablePlatform_Statics::NewProp_PlayerLocation,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovablePlatform_Statics::NewProp_PlatformLocation,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovablePlatform_Statics::NewProp_DefaultPlatformLocation,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovablePlatform_Statics::NewProp_MaxLocation,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovablePlatform_Statics::NewProp_MinLocation,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMovablePlatform_Statics::NewProp_Steps,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AMovablePlatform_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_AMovablePlatform_Statics::DependentSingletons[])() = {
@@ -98,10 +126,10 @@ AMovablePlatform::~AMovablePlatform() {}
 struct Z_CompiledInDeferFile_FID_Unreal_Engine_Games_Obstacle_obstacles_UE5_Obstacles_Obstacles_Source_Obstacles_MovablePlatform_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMovablePlatform, AMovablePlatform::StaticClass, TEXT("AMovablePlatform"), &Z_Registration_Info_UClass_AMovablePlatform, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMovablePlatform), 4213151426U) },
+		{ Z_Construct_UClass_AMovablePlatform, AMovablePlatform::StaticClass, TEXT("AMovablePlatform"), &Z_Registration_Info_UClass_AMovablePlatform, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMovablePlatform), 2424447604U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Engine_Games_Obstacle_obstacles_UE5_Obstacles_Obstacles_Source_Obstacles_MovablePlatform_h_4182224890(TEXT("/Script/Obstacles"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Engine_Games_Obstacle_obstacles_UE5_Obstacles_Obstacles_Source_Obstacles_MovablePlatform_h_3078158801(TEXT("/Script/Obstacles"),
 	Z_CompiledInDeferFile_FID_Unreal_Engine_Games_Obstacle_obstacles_UE5_Obstacles_Obstacles_Source_Obstacles_MovablePlatform_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Engine_Games_Obstacle_obstacles_UE5_Obstacles_Obstacles_Source_Obstacles_MovablePlatform_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
