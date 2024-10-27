@@ -33,15 +33,7 @@ struct Z_Construct_UClass_ASecondMovablePlatform_Statics
 		{ "IncludePath", "SecondMovablePlatform.h" },
 		{ "ModuleRelativePath", "SecondMovablePlatform.h" },
 	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PlayerLocation_MetaData[] = {
-		{ "Category", "SecondMovablePlatform" },
-		{ "ModuleRelativePath", "SecondMovablePlatform.h" },
-	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PlatformLocation_MetaData[] = {
-		{ "Category", "SecondMovablePlatform" },
-		{ "ModuleRelativePath", "SecondMovablePlatform.h" },
-	};
-	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DefaultPlatformLocation_MetaData[] = {
 		{ "Category", "SecondMovablePlatform" },
 		{ "ModuleRelativePath", "SecondMovablePlatform.h" },
 	};
@@ -58,9 +50,7 @@ struct Z_Construct_UClass_ASecondMovablePlatform_Statics
 		{ "ModuleRelativePath", "SecondMovablePlatform.h" },
 	};
 #endif // WITH_METADATA
-	static const UECodeGen_Private::FStructPropertyParams NewProp_PlayerLocation;
 	static const UECodeGen_Private::FStructPropertyParams NewProp_PlatformLocation;
-	static const UECodeGen_Private::FStructPropertyParams NewProp_DefaultPlatformLocation;
 	static const UECodeGen_Private::FIntPropertyParams NewProp_MaxLocation;
 	static const UECodeGen_Private::FIntPropertyParams NewProp_MinLocation;
 	static const UECodeGen_Private::FIntPropertyParams NewProp_Steps;
@@ -71,16 +61,12 @@ struct Z_Construct_UClass_ASecondMovablePlatform_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ASecondMovablePlatform_Statics::NewProp_PlayerLocation = { "PlayerLocation", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASecondMovablePlatform, PlayerLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PlayerLocation_MetaData), NewProp_PlayerLocation_MetaData) };
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ASecondMovablePlatform_Statics::NewProp_PlatformLocation = { "PlatformLocation", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASecondMovablePlatform, PlatformLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PlatformLocation_MetaData), NewProp_PlatformLocation_MetaData) };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ASecondMovablePlatform_Statics::NewProp_DefaultPlatformLocation = { "DefaultPlatformLocation", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASecondMovablePlatform, DefaultPlatformLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DefaultPlatformLocation_MetaData), NewProp_DefaultPlatformLocation_MetaData) };
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_ASecondMovablePlatform_Statics::NewProp_MaxLocation = { "MaxLocation", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASecondMovablePlatform, MaxLocation), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MaxLocation_MetaData), NewProp_MaxLocation_MetaData) };
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_ASecondMovablePlatform_Statics::NewProp_MinLocation = { "MinLocation", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASecondMovablePlatform, MinLocation), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MinLocation_MetaData), NewProp_MinLocation_MetaData) };
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_ASecondMovablePlatform_Statics::NewProp_Steps = { "Steps", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASecondMovablePlatform, Steps), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Steps_MetaData), NewProp_Steps_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASecondMovablePlatform_Statics::PropPointers[] = {
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASecondMovablePlatform_Statics::NewProp_PlayerLocation,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASecondMovablePlatform_Statics::NewProp_PlatformLocation,
-	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASecondMovablePlatform_Statics::NewProp_DefaultPlatformLocation,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASecondMovablePlatform_Statics::NewProp_MaxLocation,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASecondMovablePlatform_Statics::NewProp_MinLocation,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASecondMovablePlatform_Statics::NewProp_Steps,
@@ -126,10 +112,10 @@ ASecondMovablePlatform::~ASecondMovablePlatform() {}
 struct Z_CompiledInDeferFile_FID_Unreal_Engine_Games_Obstacle_obstacles_UE5_Obstacles_Obstacles_Source_Obstacles_SecondMovablePlatform_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ASecondMovablePlatform, ASecondMovablePlatform::StaticClass, TEXT("ASecondMovablePlatform"), &Z_Registration_Info_UClass_ASecondMovablePlatform, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASecondMovablePlatform), 2491885816U) },
+		{ Z_Construct_UClass_ASecondMovablePlatform, ASecondMovablePlatform::StaticClass, TEXT("ASecondMovablePlatform"), &Z_Registration_Info_UClass_ASecondMovablePlatform, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASecondMovablePlatform), 2502761563U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Engine_Games_Obstacle_obstacles_UE5_Obstacles_Obstacles_Source_Obstacles_SecondMovablePlatform_h_3817068410(TEXT("/Script/Obstacles"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Engine_Games_Obstacle_obstacles_UE5_Obstacles_Obstacles_Source_Obstacles_SecondMovablePlatform_h_3053456799(TEXT("/Script/Obstacles"),
 	Z_CompiledInDeferFile_FID_Unreal_Engine_Games_Obstacle_obstacles_UE5_Obstacles_Obstacles_Source_Obstacles_SecondMovablePlatform_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Engine_Games_Obstacle_obstacles_UE5_Obstacles_Obstacles_Source_Obstacles_SecondMovablePlatform_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

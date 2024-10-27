@@ -24,13 +24,7 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UPROPERTY(EditAnywhere)
-	FVector PlayerLocation = FVector(2180.957527,695.359269,293.988301);
-
-	UPROPERTY(EditAnywhere)
 	FVector PlatformLocation;
-
-	UPROPERTY(EditAnywhere)
-	FVector DefaultPlatformLocation;
 
 	UPROPERTY(EditAnywhere)
 	int32 MaxLocation = 2750;
@@ -40,5 +34,11 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	int32 Steps = 300;
+
+	UPROPERTY(EditAnywhere)
+	FRotator PlatformRotation;
+
+	UPROPERTY(EditAnywhere)
+	FRotator RotationSteps;
 
 };

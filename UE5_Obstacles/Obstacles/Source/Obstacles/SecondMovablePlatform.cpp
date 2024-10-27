@@ -17,7 +17,7 @@ void ASecondMovablePlatform::BeginPlay()
 	Super::BeginPlay();
 
 	//Change platform location variable so that the platform will be in front of the player
-	PlatformLocation = PlayerLocation + FVector(500,900,-90);
+	PlatformLocation = GetActorLocation();
 
 	SetActorLocation(PlatformLocation);
 
